@@ -16,7 +16,7 @@ xxl:
     admin:
       addresses: http://127.0.0.1:9292/xxl-job-admin
     executor:
-      appname: xxl-job-executor-sample
+      appname: xhs-vote-xxl-job
       ip:
       port: 18006
       logpath: /data/applogs/xxl-job/jobhandler
