@@ -12,7 +12,7 @@ spring:
         tags: urlprefix-/${spring.application.name}
         instance-id: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/xxl-job?Unicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://172.22.26.222:3306/vote?Unicode=true&characterEncoding=UTF-8
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
