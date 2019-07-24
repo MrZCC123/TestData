@@ -1,7 +1,7 @@
 spring:
   cloud:
     consul:
-      host: 127.0.0.1
+      host: 172.22.26.222
       port: 8500
       discovery:
         register: true
